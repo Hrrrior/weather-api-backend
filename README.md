@@ -5,6 +5,8 @@ Spring Boot REST based API with a PostgreSQL database that uses the OPEN WEATHER
 
 Developed with JDK 17 and PostgreSQL 14 on Windows 11.
 
+By default the application run on [http://localhost:8080/](http://localhost:8080/). Available endpoints are /cities and /weather.
+
 ## How to run
  * #### With Docker (probably works)
    * Create a ```.env``` file in the root folder. Into the ```.env``` file insert an environmental variable ```apiKey=*key*```, where ```*key*``` is replaced with your api key that you got from [here](https://openweathermap.org/api). 
